@@ -20,6 +20,7 @@
     "parser": "babel-eslint",
     "plugins": [
       "react",
+      "prettier",
       "jsx-a11y",
       "import"
     ],
