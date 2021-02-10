@@ -1,0 +1,14 @@
+.notFound__container {
+  background-image: linear-gradient(#843b62, #141414);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img__notFound {
+  display: flex;
+  border-radius: 20px;
+  height: 80vh;
+  margin: 100px auto;
+}
