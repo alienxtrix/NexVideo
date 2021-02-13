@@ -26,9 +26,10 @@ const reducer = (state, action) => {
         user: action.payload,
       };
     case "ADD_USER":
+      console.log("add:  ", state);
       return {
         ...state,
-        user: [...state.user, action.payload],
+        user: state.user.push(action.payload),
       };
     default:
       return state;

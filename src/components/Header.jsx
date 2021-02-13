@@ -12,7 +12,8 @@ const Header = (props) => {
   const hasUser = Object.keys(user).length > 0;
   const handleLogout = () => {
     console.log("logout");
-    props.logoutRequest({});
+    props.logoutRequest(user);
+    console.log("user logout: ", user);
   };
   // console.log(hasUser);
   return (

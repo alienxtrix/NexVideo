@@ -20,10 +20,10 @@ function Register(props) {
   console.log(props.user);
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(form);
+    console.log("Antes: ", form);
+    console.log("props: ", props);
     props.addUser(form);
     props.history.push("/");
-    console.log(form);
   };
   return (
     <section className="register">
